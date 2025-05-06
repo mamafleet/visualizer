@@ -26,7 +26,7 @@
     let rawData;
     let currentCategory = null;
 
-    fetch('https://mamafleet.github.io/visualizer/category_graph_multilinks.json')
+    fetch('category_graph_multilinks.json')
       .then(res => res.json())
       .then(data => {
         rawData = data;
